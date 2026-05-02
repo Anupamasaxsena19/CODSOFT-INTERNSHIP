@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anupama | AI & Data Science</title>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+/* NAVBAR */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+    background:rgba(15,23,42,0.9);
+    position:fixed;
+    width:100%;
+}
+
+nav h2{color:#38bdf8;}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+/* HERO */
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(to right,#0ea5e9,#6366f1);
+    padding:20px;
+}
+
+.hero h1{
+    font-size:50px;
+}
+
+.hero p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+.btn{
+    margin-top:20px;
+    padding:12px 25px;
+    background:#020617;
+    border-radius:25px;
+    text-decoration:none;
+    color:white;
+}
+
+/* SECTIONS */
+section{
+    padding:80px 20px;
+    text-align:center;
+}
+
+/* SKILLS */
+.skills{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.skill{
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+    width:220px;
+}
+
+/* PROJECTS */
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.project{
+    background:#1e293b;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+}
+
+/* CONTACT */
+.contact i{
+    margin:10px;
+    font-size:20px;
+}
+
+/* FOOTER */
+footer{
+    background:#020617;
+    padding:15px;
+}
+
+/* 🔥 RESPONSIVE DESIGN */
+@media(max-width:768px){
+
+    nav{
+        flex-direction:column;
+    }
+
+    nav ul{
+        flex-direction:column;
+        margin-top:10px;
+    }
+
+    nav ul li{
+        margin:10px 0;
+    }
+
+    .hero h1{
+        font-size:32px;
+    }
+
+    .skills, .projects{
+        flex-direction:column;
+        align-items:center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<h2>Anupama AI</h2>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+<h1>AI & Data Science Enthusiast</h1>
+<p>Building intelligent solutions with data & technology</p>
+<a href="#projects" class="btn">View My Work</a>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<h2>My Skills</h2>
+
+<div class="skills">
+<div class="skill">Data Analysis (Excel, Tableau)</div>
+<div class="skill">Web Development (HTML, CSS, JS)</div>
+<div class="skill">Database (MongoDB)</div>
+<div class="skill">Python & AI Basics</div>
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="projects">
+<div class="project">
+<h3>Student Analysis</h3>
+<p>Data analysis using Excel & Tableau</p>
+</div>
+
+<div class="project">
+<h3>AI Chatbot</h3>
+<p>Basic chatbot using Python</p>
+</div>
+
+<div class="project">
+<h3>Portfolio Website</h3>
+<p>Responsive UI using HTML & CSS</p>
+</div>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+<h2>Contact Me</h2>
+<p>Email: annusaxsena19@gmail.com</p>
+
+<div>
+<a href="https://github.com/your-username" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="https://linkedin.com" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<p>© 2026 Anupama | AI Portfolio</p>
+</footer>
+
+</body>
+</html>
